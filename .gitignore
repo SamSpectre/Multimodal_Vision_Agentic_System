@@ -1,0 +1,37 @@
+
+# Environment and secrets
+.env
+.env.*
+.claude/
+CLAUDE.md
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python caches and compiled artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Application runtime data
+checkpoints/
+test_images/
+testing/
+logs/
+*.log
+
+# Editors and OS-specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dependency / build artifacts
+dist/
+build/
+*.egg-info/
+
+.claude/
